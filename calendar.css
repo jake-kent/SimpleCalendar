@@ -1,0 +1,44 @@
+#share_div { position: fixed; width: 290px; height: 250px; top: 30vh; left: 38%; z-index: 9999; background-color: rgba(127, 255, 212, 0.9); border-radius: 10px; padding: 20px; border: 1px black solid}
+#share_close {float: right; height: 16px; width: 16px; border: 1px solid black; border-radius: 10px; text-align: center; line-height: 14px;}
+#share_title {text-align: center; margin-bottom: 30px;}
+#shareusernames {width: 90%;}
+#submit_event_div { position: fixed; width: 290px; height: 250px; top: 30vh; left: 38%; z-index: 9999; background-color: rgba(127, 255, 212, 0.9); border-radius: 10px; padding: 20px; border: 1px black solid}
+#submit_event_close {float: right; height: 16px; width: 16px; border: 1px solid black; border-radius: 10px; text-align: center; line-height: 14px;}
+#submit_event_title {text-align: center; margin-bottom: 5px;}
+#submiteventname {width: 74%;}
+#submiteventtime {width: 47%;}
+#submiteventdescription {width: 61%;}
+#submitError { margin: 0px; text-align: center; color: red; }
+#view_event_div { position: fixed; width: 300px; height: 260px; top: 30vh; left: 38%; z-index: 9999; background-color: rgba(127, 255, 212, 0.9); border-radius: 10px; padding: 20px; border: 1px black solid}
+#view_event_close {float: right; height: 16px; width: 16px; border: 1px solid black; border-radius: 10px; text-align: center; line-height: 14px;}
+#view_event_title {text-align: center; margin-bottom: 5px;}
+#vedeventname {width: 74%;}
+#vedeventtime {width: 47%;}
+#vedeventdescription {width: 61%;}
+#vedeventshare { position: relative; top: -10px; right: -75px; }
+#viewError { margin: 0px; text-align: center; color: red; }
+.page_header #submit_new_event {position: absolute; top: 29px; left: 20px;}
+.page_header #share_calendar {position: absolute; top: 29px; left: 140px;}
+.page_header #log_out {position: absolute; top: 29px; right: 20px;}
+#calendar {margin: 0 5%; width: 90%; position: absolute; left: 0px; top: 100px;}
+#calendarheader h2 {margin: 0 auto; width: 180px; text-align: center;}
+#prevmon, #nextmon, #submitevent, #vedeventedit, #vedeventdelete, #vedeventsharebut, #submit_event_title, #view_event_title, .page_header h2, #caldate {color: rgb(153, 0, 0);}
+#calheaderdate {width: 88%; float: left;}
+#calendarheader input {float: left;}
+#calmonth {position: relative; top: 20px; width: 100%; height: 100%;}
+#calmonth tr:nth-of-type(1) {height: 50px;}
+#calmonth tr:nth-of-type(1) td {width: 14.2%; margin: 5px; border: 1px black solid; border-radius: 20px; text-align: center;}
+#calmonth tr:nth-of-type(1) ~ tr{height: 120px;}
+#calmonth tr:nth-of-type(1) ~ tr td {width: 14.2%; margin: 5px; border: 1px black solid; border-radius: 20px; background-color: rgba(165, 42, 42, 0.6)}
+#calmonth tr td .dayofmonth {position: relative; right: 7px; top: 2px; float: right; color: aquamarine;}
+#calmonth tr td ul {margin: 0px; height: 110px; padding-left: 15%; width: 70%; position: relative; margin-top: 15px; overflow: auto;}
+#calmonth tr td ul li{color: white; border: 1px black solid; padding: 2px; border-radius: 10px; width: 95%; text-align: center; }
+#tagline{color: aquamarine;}
+#view_event_div ul { list-style:none; position:relative; float:left; margin:0; display:block; color: black; text-decoration:none; font-weight:700; font-size:12px; line-height:32px; padding:0 15px; top: -15px;}
+#view_event_div ul li { position:relative; float:left; margin:0; padding:0; }
+#view_event_div ul li.current-menu-item { background: aquamarine; }
+#view_event_div ul li:hover { background: aquamarine; }
+#view_event_div ul ul { display:none; color: rgb(153, 0, 0); position:absolute; top:100%; left:0; background: aquamarine; padding:0; }
+#view_event_div ul ul li { float:none; width: 67px; }
+#view_event_div ul li:hover > ul { display:block; }
+.invalid_user {position: absolute; top: 80px;}

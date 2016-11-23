@@ -1,0 +1,15 @@
+.page_header {height: 80px; width: 100%; background-color: aquamarine !important; opacity: 0.9 !important; border-radius: 20px; position: fixed; left: 0px; top: 0px; z-index: 9999;}
+.page_header h2 {text-align: center; margin: 26px 0;}
+@media screen and (max-width: 640px) {
+	.page_header h2 {font-size: 20px;}
+}
+@media screen and (max-width: 580px) {
+	.page_header h2 {font-size: 18px;}
+}
+@media screen and (max-width: 550px) {
+	.page_header h2 {font-size: 16px;}
+}
+@media screen and (max-width: 520px) {
+	.page_header h2 {font-size: 14px;}
+}
+.page_header input {color: rgb(153, 0, 0);}
